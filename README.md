@@ -6,7 +6,7 @@ The user can choose their prefered blockchain to mint the NFT to:
 https://user-images.githubusercontent.com/60509953/154858691-3d4e2993-72c4-4b39-aa0d-dd3fc1cb14d2.mp4
 
 
-It's not a finished application but the code should help understand the process of creating an NFT from taking a payment, setting up the NFT image+data and minting the NFT.
+It's not a complete application but the code should help understand the process of creating an NFT from taking a payment, setting up the NFT image+data and minting the NFT.
 
 To keep things simple and avoid storing private keys anywhere it uses a two step payment system where the payment and gas fees are two separate transactions.
 
