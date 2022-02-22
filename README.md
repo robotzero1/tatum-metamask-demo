@@ -8,12 +8,12 @@ https://user-images.githubusercontent.com/60509953/154858691-3d4e2993-72c4-4b39-
 
 To keep things simple and avoid storing private keys anywhere it uses a two step payment system where the payment and gas fees are two separate transactions.
 
-Stages:
+### Stages:
 User selects the chain they want to mint to in MetaMask  
 Button becomes available  
 User clicks button  
 Payment request from Tatum/KMS  
-MetaMask opens for payment confirmation 
+MetaMask opens for payment confirmation  
 MetaMask waits for on-chain confirmation  
 Confirmation checked with Tatum  
 NFT image sent to the IPFS  
