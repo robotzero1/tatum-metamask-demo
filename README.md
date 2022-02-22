@@ -1,5 +1,7 @@
 # tatum-metamask-nft
-Starter code for creating a multichain NFT marketplace using MetaMask and the Tatum API
+Demo for creating a multichain NFT marketplace using MetaMask and the Tatum API. This only works when you mint from the same account as the contract was created.
+
+It's not a finished application but the code should help understand the process of creating an NFT from creating a contract, taking a payment, setting up the NFT data and minting the NFT.
 
 The user can choose their prefered blockchain to mint the NFT to:
 
