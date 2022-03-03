@@ -14,7 +14,6 @@ To keep things simple and avoid storing private keys anywhere it uses a two step
 User selects the chain they want to mint to in MetaMask  
 Button becomes available  
 User clicks button  
-Payment request from Tatum/KMS  
 MetaMask opens for payment confirmation  
 MetaMask waits for on-chain confirmation  
 Confirmation checked with Tatum  
