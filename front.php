@@ -65,7 +65,7 @@ function estimateTransactionFee($chain){
       CURLOPT_POSTFIELDS => "{\"chain\":\"$chain\",\"type\":\"MINT_NFT\",\"enableFungibleTokens\":true,\"enableNonFungibleTokens\":false,\"enableSemiFungibleTokens\":false,\"enableBatchTransactions\":false}",
       CURLOPT_HTTPHEADER => [
         "content-type: application/json",
-        "x-api-key: ce7dc8f9-2870-404a-b88d-50bef19aa44e"
+        "x-api-key: $headerAPI"
       ],
     ]);
 
@@ -96,7 +96,7 @@ function getExchangeRate($currency)
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => [
-            "x-api-key: ce7dc8f9-2870-404a-b88d-50bef19aa44e"
+            "x-api-key: $headerAPI"
         ],
     ]);
 
