@@ -374,7 +374,7 @@ function mint($headerAPI, $tokenID, $depositAddress, $chain, $deployedTo, $ipfsH
 {
     // some extra checks before minting needed
     
-    $fields = array("tokenId" => strval($tokenID), "to" => $depositAddress,  "chain" => $chain,  "contractAddress" => $deployedTo, "url" => $ipfsHash, "signatureId" => $signatureID, "feeCurrency" => $feeCurrency);
+    $fields = array("tokenId" => strval($tokenID), "to" => $depositAddress,  "chain" => $chain,  "contractAddress" => $deployedTo, "url" => "ipfs://".$ipfsHash, "signatureId" => $signatureID, "feeCurrency" => $feeCurrency);
     $curl = curl_init();
     curl_setopt_array($curl, [
         CURLOPT_URL => "https://api-eu1.tatum.io/v3/nft/mint",
